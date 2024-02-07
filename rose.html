@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylized Rose</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+      body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.rose {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.petal {
+    width: 100px;
+    height: 150px;
+    background-color: pink;
+    border: 2px solid darkred;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    transform-origin: bottom center;
+}
+
+.petal:nth-child(1) { transform: rotate(0deg); }
+.petal:nth-child(2) { transform: rotate(45deg); }
+.petal:nth-child(3) { transform: rotate(90deg); }
+.petal:nth-child(4) { transform: rotate(135deg); }
+.petal:nth-child(5) { transform: rotate(180deg); }
+.petal:nth-child(6) { transform: rotate(225deg); }
+.petal:nth-child(7) { transform: rotate(270deg); }
+.petal:nth-child(8) { transform: rotate(315deg); }
+ 
+    </style>
+</head>
+<body>
+  <div class="rose" style="margin-right: 100px;">
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+    </div>
+  <pre style="background-color: lightyellow;">
+🌹     🌹     🌹       🌹🌹🌹   🌹🌹🌹   🌹    🌹     
+🌹     🌹   🌹  🌹    🌹    🌹  🌹    🌹  🌹    🌹
+🌹🌹🌹🌹  🌹🌹🌹🌹  🌹🌹🌹   🌹🌹🌹      🌹🌹        
+🌹     🌹  🌹     🌹  🌹        🌹            🌹  
+🌹     🌹  🌹     🌹  🌹        🌹            🌹       
+
+🌹🌹🌹 🌹🌹🌹    🌹🌹🌹  🌹🌹🌹🌹
+🌹   🌹 🌹   🌹  🌹        🌹
+🌹🌹🌹  🌹   🌹  🌹🌹🌹   🌹🌹🌹
+🌹  🌹   🌹   🌹       🌹  🌹
+🌹   🌹   🌹🌹🌹 🌹🌹🌹   🌹🌹🌹🌹
+
+🌹🌹🌹       🌹      🌹   🌹 
+🌹    🌹   🌹   🌹   🌹   🌹
+🌹    🌹  🌹🌹🌹🌹   🌹🌹
+🌹    🌹  🌹     🌹    🌹
+🌹🌹🌹    🌹     🌹    🌹
+</pre>
+    <div class="rose" style="margin-left: 100px;">
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+    </div>
+</body>
+</html>
